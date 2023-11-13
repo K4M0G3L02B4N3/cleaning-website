@@ -13,7 +13,7 @@ CleaningWeb React is a user-friendly web application built with React.js, design
 ### Getting Started
 
 1. Clone the repository: `git clone https://github.com/K4M0G3L02B4N3/cleaning-website.git`
-2. Navigate to the project directory: `cd cleaning-websit`
+2. Navigate to the project directory: `cd cleaning-website`
 3. Install dependencies: `npm install`
 4. Start the application: `npm run dev`
 5. Open `http://localhost:5173/` in your browser.

@@ -1,7 +1,16 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import Home from "./components/Home"
+import Layout from "./components/Layout"
+
 export default function App() {
   return (
-    <h1 className="text-base">
-      Hello world
-    </h1>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="*" element={<>Not Found</>} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
